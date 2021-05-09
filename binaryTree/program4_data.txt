@@ -1,0 +1,222 @@
+heap|Heaps|A binary tree whose root contains a value
+greater than or equal to its children,
+if not empty, and whose subtrees are heaps|
+
+maxheap|Heaps|A heap whose root contains the item with the largest value|
+
+priority queue|Heaps|A value-based ADT that lends itself to being defined by a heap|
+
+heap sort|Heaps|An algorithm that uses a heap structure to sort a data set|
+
+heap region|Heaps|The region of an array from which
+the sort heap algorithm moves items
+(the smallest values in the data set)|
+
+sorted region|Heaps|The region of an array into which
+the sort heap algorithm moves items
+(the largest values in the data set)|
+
+semiheap|Heaps|A binary tree whose left and right subtrees are both heaps,
+but whose root's data is out of place|
+
+minheap|Heaps|A heap whose root contains the item with the smallest value|
+
+vertex|Graphs|A 'node' containing data in a graph|
+
+graph|Graphs|A data structure comprised of vertices of data connected by edges|
+
+path|Graphs|A sequence of edges connecting one vertex to another|
+
+simple path|Graphs|A path that does not pass through a vertex more than once|
+
+cycle|Graphs|A simple path that begins and ends at the same vertex|
+
+connected graph|Graphs|A graph that has a path between every possible pair of vertices|
+
+complete graph|Graphs|A graph that has an edge between every possible pair of vertices|
+
+weighted graph|Graphs|A graph in which the edges themselves have data|
+
+directed graph|Graphs|A graph in which each edge operates only in one direction|
+
+multigraph|Graphs|A graph that allows multiple edges between vertices|
+
+self edge|Graphs|An edge between a vertex and itself
+(also called a 'loop')|
+
+unweighted graph|Graphs|A graph in which the edges themselves have no data|
+
+tree|Trees|A value-based ADT that sorts data
+in a hierarchical fashion|
+
+binary tree|Trees|An n-ary tree with n = 2|
+
+descendant|Trees|Any node in a node n's subtree
+is a descendant of n.|
+
+trickle down|Heaps|A strategy to turn a semiheap into a heap|
+
+bubble up|Heaps|A process required to add a vertex to a heap|
+
+binary search tree|Binary trees|A binary tree in which the value in any node n
+is greater than the value in every node in n's
+left subtree, but less than (or less than
+or equal to) the value in every node in n's
+right subtree|
+
+general tree|Trees|A set of one or more nodes,
+partitioned into a root node and subsets
+that are general subtrees of the root|
+
+n-ary tree|Trees|A set of nodes that is either empty
+or partitioned into a root node
+and at most n subsets that are
+n-ary sub-trees of the root|
+
+BST|Binary trees|See 'binary search tree'.|
+
+subtree|Trees|Any node in a tree together
+with all of its descendants|
+
+ancestor|Trees|Any node that is the root of a subtree
+that includes the node n
+is an ancestor of n.|
+
+parent|Trees|If an edge is between nodes m and n,
+and m is above n in the tree,
+then m is the parent of n.|
+
+parent node|Trees|See 'parent'.|
+
+child|Trees|If an edge is between nodes m and n,
+and m is above n in the tree,
+then n is the child of m.|
+
+child node|Trees|See 'child'.|
+
+edge|Trees|A connection (i.e. pointer) between two adjacent nodes|
+
+leaf|Trees|A node with no children|
+
+height|Trees|The number of nodes on the longest path
+from the root to a leaf
+(not to be confused with 'heighth')|
+
+full|Binary trees|If all nodes at a level less than the height
+have two children each, the tree is full.|
+
+full binary tree|Binary trees|See 'full'.|
+
+full tree|Binary trees|See 'full'.|
+
+level|Trees|If n is the root, it is at level 1.
+If n is not the root, its level is 1 greater
+than that of its parent.|
+
+heighth|Trees|A made-up word|
+
+root|Trees|The node that is an ancestor of every other node|
+
+root node|Trees|See 'root'.|
+
+sibling|Trees|Two nodes that share a parent are siblings.|
+
+sibling node|Trees|See 'sibling'.|
+
+complete|Binary trees|If the tree is full to a level 1 less than its height,
+and level h is filled from left to right,
+the tree is complete.|
+
+complete binary tree|Binary trees|See 'complete'.|
+
+complete tree|Binary trees|See 'complete'.|
+
+balanced|Binary trees|If the left and right subtrees of any node
+differ by a height of no greater than 1,
+the tree is balanced.|
+
+balanced binary tree|Binary trees|See 'balanced'.|
+
+balanced tree|Binary trees|See 'balanaced'.|
+
+maximum height|Binary trees|The height if each node were to have no more than one child|
+
+minimum height|Binary trees|The height if the tree is full
+to a level one less than its height|
+
+preorder|Binary trees|Operation on the parent node before its descendants|
+
+preorder traversal|Binary trees|See 'preorder'.|
+
+inorder|Binary trees|Operation on the left subtree before the parent node
+and the parent node before the right subtree|
+
+inorder traversal|Binary trees|See 'inorder'.|
+
+postorder|Binary trees|Operation on the subtrees before their common ancestor|
+
+postorder traversal|Binary trees|See 'postorder'.|
+
+free list|Binary trees|A list of all the available indices
+in an array-based representation of a BST|
+
+array-based representation|Binary trees|An implementation of a BST in which each node
+contains the indices of its children
+in a common array|
+
+link-based representation|Binary trees|An implementation of a BST in which each node
+contains pointers to each of its children|
+
+inorder successor|Binary search trees|The node with the least data in the right subtree|
+
+successor|Trees|The ancestor node designated to take
+the place of a node being removed
+(For inorder successor see 'inorder successor'.)|
+
+successor node|Trees|See 'successor'.|
+
+hash table|Hash tables|An assortment of data with addresses determined
+by the output of a hash function|
+
+hash function|Hash tables|A function which takes as input some key value
+and ouputs an index less than
+the capacity of the table|
+
+key|Hash tables|The value used to sort the data via the hash function|
+
+search key|Hash tables|See 'key'.|
+
+table|Hash tables|A data type that stores data by value,
+as opposed to by address|
+
+table ADT|Hash tables|See 'table'.|
+
+sequential search|Hash tables|An operation to retrieve data via a value
+other than the key of the hash function|
+
+hashing function|Hash tables|See 'hash function'.|
+
+hashing|Hash tables|See 'hash function'.|
+
+chaining|Hash tables|A method of collision resolution in which
+objects sharing an index become nodes
+in a linear linked list|
+
+collision|Hash tables|An event in which an object is sorted by
+the hash function into an occupied index|
+
+collision resolution|Hash tables|An operation that allows two objects to share an index|
+
+clustering|Hash tables|A phenomenon in which data is more likely to be sorted
+into some indices, and less likely into others|
+
+data clustering|Hash tables|See 'clustering'.|
+
+linear probing|Hash tables|A method of collision resolution involving
+a sequential search for an empty index|
+
+table size|Hash tables|See 'size'.|
+
+size|Hash tables|The number of indices in the table|
+
+;
